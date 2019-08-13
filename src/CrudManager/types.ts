@@ -10,7 +10,7 @@ export type OnCallback = (record: IRecord, extensions: Extensions) => void
 
 export type OnErrorCallback = (error: Error, record: IRecord, extensions: Extensions) => void
 
-export interface Options { 
+  export interface Options {
   beforeCreate?: BeforeCallback
   beforeUpdate?: BeforeCallback
   beforeDelete?: BeforeCallback

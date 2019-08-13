@@ -1,6 +1,6 @@
 {
   "name": "lemon-curd",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Javascript crud manager",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,8 @@
   "author": "Michiel de Vos <Michiel_87@hotmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "resma": "^0.0.5",
-    "typescript": "^3.4.3"
+    "@types/ramda": "^0.26.19",
+    "resma": "^0.0.32",
+    "typescript": "^3.5.3"
   }
 }
